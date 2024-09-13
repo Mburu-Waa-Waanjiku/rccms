@@ -796,43 +796,19 @@ function page({params}) {
           <div key={index} className='w-full mb-12'>
             <div className="flex mb-6 p-1 slg:p-6 mlg:pb-8 slg:p-0 flex-col slg:flex-row justify-center relative items-center gap-4 w-full">
               <div className="title-color w-full block slg:hidden mt-6 mb-6 text-3xl text-start px-2 pt-1 pb-2 slg:text-center text-white">{index + 1}. {course.name}</div>
-              <div className="slg:w-1/2 h-auto slg:h-96 w-full flex  items-center ">
+              <div className="w-full flex justify-center scaler xxsm:!scale-75 mlg:!scale-100  items-center h-72 slg:w-1/2">
+                <Image alt={` `} style={{transform: 'translate(20px, 0px)'}} className="absolute border-4 border-white m-1 z-10" width={300} height={400} src={'/ce1c35c07233d4a240d31e0875810db9.png'}/>
+                <div style={{transform: 'translate(-80px, 150px)'}} className="p-3 title-color h-32 w-48 text-3xl text-white z-10">Become a leading ​business mind</div>
+              </div>
+              <div className="slg:w-1/2 h-auto font-sans slg:h-96 w-full flex  items-center ">
                 <div className="pt-4 justify-center flex flex-col  h-full px-6">
                   <div className="title-color slg:block hidden mt-6 mb-6 text-3xl px-2 pt-1 pb-2 text-start slg:text-center text-white">{index + 1}. {course.name}</div>
                   {course.Description.map((d, i) => (
                     <p key={i} className="pb-3 text-xl title-text">{d}</p>
                   ))}
-                  <ApplyButton applyTitle={course.name} />
-                  <div className="title-gradien mt-6 text-xl w-32 pt-0.5 pb-2 text-center text-white ">Apply</div>
+                  <ApplyButton applyTitle={course.name} course={course} index={index} />
                 </div>
               </div>
-              <div className="w-full flex justify-center scaler xxsm:!scale-75 mlg:!scale-100  items-center h-72 slg:w-1/2">
-                <Image alt={` `} style={{transform: 'translate(20px, 0px)'}} className="absolute border-4 border-white m-1 z-10" width={300} height={400} src={'/ce1c35c07233d4a240d31e0875810db9.png'}/>
-                <div style={{transform: 'translate(-80px, 150px)'}} className="p-3 title-color h-32 w-48 text-3xl text-white z-10">Become a leading ​business mind</div>
-              </div>
-            </div>
-            <div className='flex flex-col'>
-              {course.levels.map((course, index) => (
-                <div className='w-full mb-8 title-text bg-highlight px-3 pt-3 pb-6'>
-                  <h3 className='w-full text-center text-3xl font-medium pb-3'>{course.level}</h3>
-                  {course.requirements.length > 0 &&
-                    <>
-                      <h5 className='text-2xl font-medium'>Requirements</h5>
-                      <ul>
-                        {course.requirements?.map((requirement, index) => (
-                          <li>{requirement}</li>
-                        ))}
-                      </ul>
-                    </>
-                  }
-                  <h5 className='text-2xl font-medium pb-2'>Study Areas</h5>
-                  <ul style={{listStyleType: 'disc'}} className='ml-5'>
-                    {course.units?.map((requirement, index) => (
-                      <li className='text-base' key={index}>{requirement}</li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
             </div>
           </div>
         ))}

@@ -1,6 +1,11 @@
 .title-color{
     background-color: #3e2f5b;
 }
+.topbar-webkit::-webkit-scrollbar {
+    height: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+}
 .title-text{
     color: #3e2f5b;
 }
@@ -24,6 +29,14 @@
 }
 .logo {
     transform: translate(10vw);
+}
+.image-width {
+    width: 40vw;
+}
+@media only screen and ( max-width: 745px) {
+    .image-width {
+        width: 90vw;
+    }
 }
 @media only screen and ( max-width: 601px) {
     .logo {
