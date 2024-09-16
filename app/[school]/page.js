@@ -41,7 +41,7 @@ function page({params}) {
     {
       name: 'School-Of-Beauty-And-Cosmetology',
       map: [15, 23],
-      img: '/hair-dressing.jfif'
+      img: '/hair-dressing.jpg'
     }
   ];
 
