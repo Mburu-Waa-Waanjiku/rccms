@@ -31,7 +31,7 @@ function Apply({applyTitle, closeLogger}) {
   
   return (
     <div className='w-full left-0 fixed h-screen px-6 top-0 z-20 flex justify-center items-center'>
-      <Form className='w-full flex flex-col justify-between min-w-64 max-w-xl min-h-96 py-6 px-8 rounded-3xl title-color' onFinish={RegistersubmitHandler}>
+      <Form className='w-full flex flex-col border-white border-2 justify-between min-w-64 max-w-xl min-h-96 py-6 px-8 rounded-3xl title-color' onFinish={RegistersubmitHandler}>
         <IoClose onClick={closeLogger} style={{transform: 'translateY(-20px)'}} className='text-white z-10 text-xl absolute my-4'/>
         <div className='text-2xl font-medium text-center py-3 pb-8 text-white'>
           {applyTitle}
@@ -59,7 +59,7 @@ function Apply({applyTitle, closeLogger}) {
               <Input placeholder='Second Name'/>
             </Form.Item>
           </div>
-          <div className='flex xsm:gap-3 flex-col xsm:flex-row'>
+          <div className='flex  xsm:gap-3 flex-col xsm:flex-row'>
             <Form.Item
               name="email"
               defaultValue=""
@@ -81,8 +81,8 @@ function Apply({applyTitle, closeLogger}) {
               <Input placeholder='Phone Number'/>
             </Form.Item>
           </div>
-          <div className='flex w-full justify-center'>
-            <Form.Item className='w-full max-w-64'>
+          <div className='flex min-w-44 xsm:min-w-52 xsm:gap-3 flex-col xsm:flex-row'>
+            <Form.Item className='xsm:w-full'>
               <DatePicker className='w-full' placeholder='Date of admission' onChange={onChange} />
             </Form.Item>
           </div>

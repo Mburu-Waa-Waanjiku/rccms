@@ -6,6 +6,19 @@
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;
 }
+/* Define the scrollbar style */
+.order-thumb::-webkit-scrollbar {
+    width: 7px;
+}
+/* Define the thumb style */
+.order-thumb::-webkit-scrollbar-thumb {
+background: #989a9c;
+border-radius: 5px;
+}
+/* Define the button style */
+.order-thumb::-webkit-scrollbar-button {
+display: none;
+}
 .title-text{
     color: #3e2f5b;
 }

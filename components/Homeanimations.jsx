@@ -6,6 +6,7 @@ import { MdCall } from "react-icons/md";
 import { IoShareSocialSharp } from "react-icons/io5";
 import { IoLocationSharp } from "react-icons/io5";
 import { Slide } from 'react-awesome-reveal';
+import Link from 'next/link';
 
 function Homeanimations() {
 
@@ -29,7 +30,7 @@ function Homeanimations() {
             </div>
             <div className="w-0.5 bg-black h-full"></div>
             <div className="flex flex-col items-center justify-center gap-0.5">
-              <MdCall className="text-2xl"/>
+              <Link href={'tell: 0245001122'}><MdCall className="text-2xl"/></Link>
               <span className="leading-3 hidden sm:block mb-1.5">CONTACTS</span>
             </div>
             <div className="w-0.5 bg-black h-full"></div>

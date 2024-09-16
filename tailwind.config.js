@@ -17,7 +17,7 @@ module.exports = {
         'xmmsm': '384px',
         'xmsm': '448px',
         'xsm': '600px',
-        "slg": "745px",
+        "slg": "755px",
         'mdb': '767.5px',
         'mdc': '850px',
         'am1': '775px',

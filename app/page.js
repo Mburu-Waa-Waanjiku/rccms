@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import ApplyButton from "@/components/ApplyButton";
 import Homeanimations from "@/components/Homeanimations";
 import Extenddivs from "@/components/Extenddivs";
+import { RiWhatsappFill } from "react-icons/ri";
 
 export default function Home() {
   
@@ -14,7 +15,7 @@ export default function Home() {
     'School-Of-Fashion-Design',
     'School-Of-Business',
     'School-Of-ICT',
-    'School-Of-Frontoffice',
+    'School-Of-Front-Office',
     'School-Of-Beauty-And-Cosmetology'
   ]
 
@@ -66,9 +67,9 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full flex justify-center scaler xxsm:!scale-75 mlg:!scale-100  items-center h-72 slg:w-1/2">
-          <Image alt="school of catering" style={{transform: 'translate(-70px, -50px)'}} className="absolute border-4 border-white m-1 z-10" width={300} height={200} src={'/caa8041ec6c3d6dcd30b6609afdc3783.jpg'}/>
-          <Image alt="school of catering" style={{transform: 'translate(110px, 20px)'}} className="absolute border-4 border-white z-20" width={240} height={220} src={'/f1f772263d064024a90333c7101b5fa7.jpg'}/>
-          <Image alt="school of catering" style={{transform: 'translate(-75px, 100px)'}} className="absolute" width={130} height={230} src={'/6cb07471145faa8a8d59f1ddc41d3156.jpg'}/>
+          <Image alt="school of catering" style={{transform: 'translate(-70px, -50px)'}} className="absolute border-4 border-white m-1 z-10" width={300} height={200} src={'/20240313_151957.jpg'}/>
+          <Image alt="school of catering" style={{transform: 'translate(110px, 20px)'}} className="absolute border-4 border-white z-20" width={240} height={220} src={'/20240313_115726.jpg'}/>
+          <Image alt="school of catering" style={{transform: 'translate(-75px, 100px)'}} className="absolute" width={130} height={230} src={'/20240628_193120.jpg'}/>
         </div>
         <div className="slg:w-1/2 h-auto font-medium font-sans slg:h-96 w-full flex slg:hidden  items-center ">
           <div className="pt-4 justify-center flex flex-col  h-full px-6">
@@ -86,18 +87,18 @@ export default function Home() {
           <div class="col-md-6  max-w-96">
             <div class="row mt-4 mt-md-0">
               <div class="col-5 offset-1 pl-4 pr-2 home-gallery mb-3 align-self-end">
-                <img class=" img-fluid" src="./2ec8cfe15ae689b59e0ecfe7cf127190.jpg" alt="school of fashion"/>
+                <img class=" img-fluid" src="./IMG-20240710-WA0021.jpg" alt="school of fashion"/>
               </div>
               <div class="col-6 px-2 mb-3">
-                  <img class=" img-fluid" src="./8df6bfb5f8a77874ef7a51d698827667.jpg" alt="school of fashion"/>
+                  <img class=" img-fluid" src="./hair-dressing.jfif" alt="school of fashion"/>
               </div>
               <div class="col-7  px-2 mb-3">
                 <div class=" title-color flex-col flex justify-center min-h-40 p-2 p-sm-3 p-lg-4 p-xl-5 text-white">
-                  <h3 className="text-2xl">Building character and inspiring careers</h3>
+                  <h3 className="text-2xl">Become a <br/>professional in <br/> beauty & cosmetology</h3>
                 </div>
               </div>
-              <div class="col-5 align-self-start pl-2 pr-10 mb-3">
-                  <img class="border-radius-3 img-fluid" src="./666e0b80a3c87c51a35f226b8ed47274.png" alt="school of fashion"/>
+              <div class="col-5 align-self-start pl-2 pr-8 mb-3">
+                  <img class="border-radius-3 img-fluid" src="./makeup.jpg" alt="school of fashion"/>
               </div>
             </div>
           </div>
@@ -230,6 +231,10 @@ export default function Home() {
             <Link href={`/${Schools[5]}`}><div className="title-gradien mt-6 text-xl w-32 pt-0.5 pb-2 text-center text-white ">Learn More</div></Link>
           </div>
         </div>
+      </div>
+      <div className="text-4xl z-10 flex flex-col items-center rounded-full text-green-600 fixed bottom bottom-8 pt-2 px-4 pb-4 bg-gray-100 right-8">
+        <Link href={'https://wa.me/254202319877'}><RiWhatsappFill/></Link> 
+        <span className="text-sm title-text">Talk to us</span>
       </div>
       <Extenddivs/>
       {/* Footer */}

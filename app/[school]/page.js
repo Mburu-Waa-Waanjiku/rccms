@@ -10,31 +10,38 @@ function page({params}) {
   const allSchools = [
     {
       name: 'School-Of-Hospitality-Management',
-      map: [0, 8]
+      map: [0, 8],
+      img: '/hospitality.jpg'
     },
     {
-      name:'School-Of-Frontoffice',
-      map: [8, 9]
+      name:'School-Of-Front-Office',
+      map: [8, 9],
+      img: '/images(1).jpeg'
     },
     {
       name:'School-Of-Fashion-Design',
-      map: [9, 10]
+      map: [9, 10],
+      img: '/8df6bfb5f8a77874ef7a51d698827667.jpg',
     },
     {
       name: 'School-Of-Tourism',
-      map: [10, 11]
+      map: [10, 11],
+      img: '/70d27ecabc0a6707fe2a9460dcb537fe.jpg'
     },
     {
       name: 'School-Of-ICT',
-      map: [14, 15]
+      map: [14, 15],
+      img: '/ea111b13ddd50698f161e6d24a14140e.jpg'
     },
     {
       name: 'School-Of-Business',
-      map: [11, 14]
+      map: [11, 14],
+      img: '/images(2).jpeg'
     },
     {
       name: 'School-Of-Beauty-And-Cosmetology',
-      map: [15, 23]
+      map: [15, 23],
+      img: '/hair-dressing.jfif'
     }
   ];
 
@@ -51,6 +58,8 @@ function page({params}) {
         'You will be able to complete your ​certification in 36 months. ',
         'There are 3 levels ​in this course.'
       ],
+      img: '/20240313_115726.jpg',
+      phrase: 'Be the best in Hospitality',
       levels: [
         {
           level: 'Certificate',
@@ -99,13 +108,15 @@ function page({params}) {
     },
     //course 2
     {
-      name: 'Certificate In Food & Beverage Production Sles & Service',
+      name: 'Certificate In Food & Beverage Production Sales & Service',
       Description: [
-        'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'This is an KNEC certification course.',
+        'Minimum grade to start your studies on this ​course is D plain. ',
+        'You will be able to complete your ​certification in 24 months. ',
+        'There are 2 modules ​in this course.'
       ],
+      img: '/images(4).jpeg',
+      phrase: 'Preparing you for the world',
       levels: [
         {
           level: 'Module 1',
@@ -140,13 +151,14 @@ function page({params}) {
     },
     //course 3
     {
-      name: 'Diploma In Food & Beverage Production Sles & Service',
+      name: 'Diploma In Food & Beverage Production Sales & Service',
       Description: [
         'This is an KNEC certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'Minimum grade to start your studies on this ​course is C plain. ',
+        'You will be able to complete your ​certification in 3 years. ',
       ],
+      img: '/images(5).jpeg',
+      phrase: 'World class Training',
       levels: [
         {
           level: 'Module 1',
@@ -184,10 +196,12 @@ function page({params}) {
       name: 'Diploma In Food & Beverage Production, Pastry &  Baking',
       Description: [
         'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'Minimum grade to start your studies on this ​course is D plain. ',
+        'You will be able to complete your ​certification in 12 months. ',
+        'There are 1 module ​in this course.'
       ],
+      img: '/images(8).jpeg',
+      phrase: "Professionalism on it's best",
       levels: [
         {
           level: 'Module 1',
@@ -208,10 +222,11 @@ function page({params}) {
       name: 'Certificate in Housekeeping & Accomodation',
       Description: [
         'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'Minimum grade to start your studies on this ​course is D.plain ',
+        'You will be able to complete your ​certification in 12 months ',
       ],
+      img: '/20240628_173534.jpg',
+      phrase: 'Empower your career in Hospiality field',
       levels: [
         {
           level: 'Units',
@@ -231,11 +246,12 @@ function page({params}) {
     {
       name: 'Diploma In Event Management',
       Description: [
-        'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
+        'Minimum grade to start your studies on this ​course is D plain. ',
         'You will be able to complete your ​certification in 36 months. ',
         'There are 3 levels ​in this course.'
       ],
+      img: '/events.jpeg',
+      phrase: 'Your beginning in event planning',
       levels: [
         {
           level: 'Units',
@@ -258,9 +274,10 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'You will be able to complete your ​certification in 12 months. ',
       ],
+      img: '/ae77f09aad8ea172ea8f53585f5f366c.jpg',
+      phrase: 'Gain skills in calinary arts',
       levels: [
         {
           level: 'Units',
@@ -285,10 +302,11 @@ function page({params}) {
       name: 'Diploma In Food & Beverage Service',
       Description: [
         'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'Minimum grade to start your studies on this ​course is D minus. ',
+        'You will be able to complete your ​certification in 12 months. ',
       ],
+      img: '/6cb07471145faa8a8d59f1ddc41d3156.jpg',
+      phrase: 'Learn the art of Service in your field',
       levels: [
         {
           level: 'Units',
@@ -313,6 +331,8 @@ function page({params}) {
         'You will be able to complete your ​certification in 36 months. ',
         'There are 3 levels ​in this course.'
       ],
+      img: '/6f4175f2499f20423e439f7fe12f5600.png',
+      phrase: 'Producing world class front office operator & office Manager',
       levels: [
         {
           level: 'Certificate in Office Practice',
@@ -351,6 +371,8 @@ function page({params}) {
         'You will be able to complete your ​certification in 36 months. ',
         'There are 3 levels ​in this course.'
       ],
+      img: '/666e0b80a3c87c51a35f226b8ed47274.png',
+      phrase: 'Become a world class fashion designer',
       levels: [
         {
           level: 'Basic Units',
@@ -389,6 +411,8 @@ function page({params}) {
         'You will be able to complete your ​certification in 36 months. ',
         'There are 3 levels ​in this course.'
       ],
+      img: '/70d27ecabc0a6707fe2a9460dcb537fe.jpg',
+      phrase: 'Producing Leading Profesionals in Tourism',
       levels: [
         {
           level: 'Part 1',
@@ -427,6 +451,8 @@ function page({params}) {
         'You will be able to complete your ​certification in 36 months. ',
         'There are 3 levels ​in this course.'
       ],
+      img: '/images(2)1.jpeg',
+      phrase: 'Learn the essentials in Sales & Marketing',
       levels: [
         {
           level: 'Part 1',
@@ -464,6 +490,8 @@ function page({params}) {
         'You will be able to complete your ​certification in 36 months. ',
         'There are 3 levels ​in this course.'
       ],
+      img: '/ce1c35c07233d4a240d31e0875810db9.png',
+      phrase: 'Advance your knowledge in Business',
       levels: [
         {
           level: 'Part 1',
@@ -500,6 +528,9 @@ function page({params}) {
         'You will be able to complete your ​certification in 36 months. ',
         'There are 3 levels ​in this course.'
       ],
+      
+      img: '/businesss.jpeg',
+      phrase: 'Where strong business names are made',
       levels: [
         {
           level: '',
@@ -515,10 +546,11 @@ function page({params}) {
       name: 'Diploma In Computer Science & Cyber Security',
       Description: [
         'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'Minimum grade to start your studies on this ​course is C minus. ',
+        'You will be able to complete your ​certification in 18 months. ',
       ],
+      img: '/ea111b13ddd50698f161e6d24a14140e.jpg',
+      phrase: 'Learn the essentials in ICT',
       levels: [
         {
           level: 'Units',
@@ -538,11 +570,12 @@ function page({params}) {
     {
       name: 'Hairdressing & Beaty Therapy',
       Description: [
-        'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'This is an NITA certification course.',
+        'Minimum grade to start your studies on this ​course is D plain. ',
+        'You will be able to complete your ​certification in 9 months. ',
       ],
+      img: '/hair-dressing.jfif',
+      phrase: 'Be a professional in Beauty & Hairdressing',
       levels: [
         {
           level: 'Hairdressing',
@@ -592,11 +625,12 @@ function page({params}) {
     {
       name: 'Hairdressing',
       Description: [
-        'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'This is an NITA certification course.',
+        'Minimum grade to start your studies on this ​course is D plain. ',
+        'You will be able to complete your ​certification in 6 months. ',
       ],
+      img: '/hair-dressing.jfif',
+      phrase: 'Learn the art of Hair dressing',
       levels: [
         {
           level: 'Hairdressing',
@@ -614,10 +648,11 @@ function page({params}) {
       name: 'Beauty Therapy',
       Description: [
         'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'Minimum grade to start your studies on this ​course is D plain. ',
+        'You will be able to complete your ​certification in 6 months. ',
       ],
+      img: '/makeup.jpg',
+      phrase: 'Learn the art of Beaty therapy',
       levels: [
         {
           level: 'Hairdressing',
@@ -635,10 +670,11 @@ function page({params}) {
       name: 'Diploma In Hairdressing & Beauty Therapy',
       Description: [
         'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'Minimum grade to start your studies on this ​course is D plus. ',
+        'You will be able to complete your ​certification in 12 months. ',
       ],
+      img: '/hair-dressing.jfif',
+      phrase: 'Advance your career in Hair dressing & Beauty therapy',
       levels: [
         {
           level: 'Core Unts',
@@ -698,11 +734,11 @@ function page({params}) {
     {
       name: 'Certificate In Barbering',
       Description: [
-        'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'This is an NITA certification course.',
+        'You will be able to complete your ​certification in 2 months. ',
       ],
+      img: '/images(15).jpeg',
+      phrase: 'Start your career with a profesional barbering course',
       levels: [
         {
           level: 'Hairdressing',
@@ -719,11 +755,12 @@ function page({params}) {
     {
       name: 'Certificate In Nail Technology',
       Description: [
-        'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
+        'This is an NITA certified course.',
+        'You will be able to complete your ​certification in 2 months. ',
         'There are 3 levels ​in this course.'
       ],
+      img: '/IMG-20240710-WA0021.jpg',
+      phrase: 'Make a career out of the nail art industry',
       levels: [
         {
           level: 'Hairdressing',
@@ -740,11 +777,12 @@ function page({params}) {
     {
       name: 'Tutors Trainging Course',
       Description: [
-        'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
+        'This is an NITA certification course.',
+        'You will be able to complete your ​certification in 6 months.',
         'There are 3 levels ​in this course.'
       ],
+      img: '/images(13).jpeg',
+      phrase: 'Become a trainer in beauty and herapy',
       levels: [
         {
           level: 'Hairdressing',
@@ -761,11 +799,10 @@ function page({params}) {
     {
       name: 'Hairdressing Packages (Short course)',
       Description: [
-        'This is an ICM certification course.',
-        'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
-        'There are 3 levels ​in this course.'
+        'You will be able to complete your ​certification in 2 months. ',
       ],
+      img: '/hair-dressing.jfif',
+      phrase: 'Get a proficiency course to work at a beauty Salon',
       levels: [
         {
           level: 'Hairdressing',
@@ -786,7 +823,7 @@ function page({params}) {
   return (
     <div className='w-full h-full overflow-hidden' >
       <div className='w-full  school-banner-height flex flex-col justify-center overflow-hidden' >
-        <Image alt={schoolName} width={1300} height={800}  className=' min-h-full contain' src={'/13e6b5defdc2cb87e53a9dbf027e70ca.jpg'} />
+        <Image alt={schoolName} width={1300} height={800}  className=' min-h-full object-cover' src={schoolCourses.img} />
         <div style={{lineHeight: '70px'}} className='text-5xl slg:text-7xl text-center p-6  school-banner-height top-0 font-bold text-white z-10 flex justify-center items-center absolute school-banner-shadow w-full h-96'>
           <h1>{schoolName}</h1>
         </div>
@@ -794,14 +831,14 @@ function page({params}) {
       <div className='px-4 py-6'>
         {schools.slice(schoolCourses.map[0], schoolCourses.map[1]).map((course, index) => (
           <div key={index} className='w-full mb-12'>
-            <div className="flex mb-6 p-1 slg:p-6 mlg:pb-8 slg:p-0 flex-col slg:flex-row justify-center relative items-center gap-4 w-full">
+            <div className="flex mb-6 p-1 slg:p-6 mlg:pb-8 slg:p-0 flex-col slg:flex-row justify-center  relative items-center gap-4 w-full">
               <div className="title-color w-full block slg:hidden mt-6 mb-6 text-3xl text-start px-2 pt-1 pb-2 slg:text-center text-white">{index + 1}. {course.name}</div>
               <div className="w-full flex justify-center scaler xxsm:!scale-75 mlg:!scale-100  items-center h-72 slg:w-1/2">
-                <Image alt={` `} style={{transform: 'translate(20px, 0px)'}} className="absolute border-4 border-white m-1 z-10" width={300} height={400} src={'/ce1c35c07233d4a240d31e0875810db9.png'}/>
-                <div style={{transform: 'translate(-80px, 150px)'}} className="p-3 title-color h-32 w-48 text-3xl text-white z-10">Become a leading ​business mind</div>
+                <Image alt={` `} style={{transform: 'translate(20px, 0px)'}} className="absolute border-4 border-white m-1 z-10" width={300} height={400} src={course.img}/>
+                <div style={{transform: 'translate(-80px, 150px)'}} className="p-3 title-color h-32 w-48 text-3xl text-white z-10">{course.phrase}</div>
               </div>
-              <div className="slg:w-1/2 h-auto font-sans slg:h-96 w-full flex  items-center ">
-                <div className="pt-4 justify-center flex flex-col  h-full px-6">
+              <div className="slg:w-1/2 h-auto justify-center slg:justify-start font-sans slg:h-96 slg:overflow-y-auto order-thumb w-full flex  items-center ">
+                <div className="pt-4 justify-center slg:justify-start flex flex-col  h-full px-6">
                   <div className="title-color slg:block hidden mt-6 mb-6 text-3xl px-2 pt-1 pb-2 text-start slg:text-center text-white">{index + 1}. {course.name}</div>
                   {course.Description.map((d, i) => (
                     <p key={i} className="pb-3 text-xl title-text">{d}</p>

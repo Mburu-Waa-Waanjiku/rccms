@@ -8,21 +8,86 @@ function Extenddivs() {
 
   const shortCourses = [
     {
-      name:'Calinary Arts',
-      image: '/13e6b5defdc2cb87e53a9dbf027e70ca.jpg'
+      name: 'Customer Service',
+      image: '/images.jpeg'
     },
     {
-      name: 'Cake Decoration',
-      image: '/7cfdc85b203699fcba4b8aa149ebd62e.jpg'
+      name: 'Public relations',
+      image: '/images(1).jpeg'
     },
     {
-      name: 'Front Offive',
+      name:'Management',
+      image: '/images(2).jpeg'
+    },
+    {
+      name:'Book Keeping',
+      image: '/images(3).jpeg'
+    },
+    {
+      name: 'Front Office Operations',
       image: '/6f4175f2499f20423e439f7fe12f5600.png'
+    },
+    {
+      name: 'House Keeping',
+      image: '/20240628_173534.jpg'
+    },
+    {
+      name: 'Food & Beverage Service',
+      image: '/images(4).jpeg'
+    },
+    {
+      name: 'Store Keeping',
+      image: '/images(6).jpeg'
+    },
+    {
+      name: 'Food & Beverage Production',
+      image: '/images(5).jpeg'
     },
     {
       name: 'Tour Guiding',
       image: '/70d27ecabc0a6707fe2a9460dcb537fe.jpg'
-    }
+    },
+    {
+      name: 'Computer Packages',
+      image: '/ea111b13ddd50698f161e6d24a14140e.jpg'
+    },
+    {
+      name: 'Marketing',
+      image: '/images(7).jpeg'
+    },
+    {
+      name: 'Pastry & Baking',
+      image: '/images(8).jpeg'
+    },
+    {
+      name: 'Nutrition & Dietetics',
+      image: '/nutrition.jpeg'
+    },
+    {
+      name: 'Business Communication',
+      image: '/images(1).jpeg'
+    },
+    {
+      name: 'Community Health Worker',
+      image: '/images(9).jpeg'
+    },
+    {
+      name: 'Entrepreneurship',
+      image: '/images(10).jpeg'
+    },
+    {
+      name: 'Leadership',
+      image: '/entrepreneur.jpeg'
+    },
+    {
+      name: 'Cake Baking & Cake Decoration',
+      image: '/images(12).jpeg'
+    },
+    {
+      name: 'Integrated Courses(After form 4)',
+      image: '/images(13).jpeg'
+    },
+    
   ]
 
   const student = [
