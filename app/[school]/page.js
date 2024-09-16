@@ -574,7 +574,7 @@ function page({params}) {
         'Minimum grade to start your studies on this ​course is D plain. ',
         'You will be able to complete your ​certification in 9 months. ',
       ],
-      img: '/hair-dressing.jfif',
+      img: '/hair-dressing.jpg',
       phrase: 'Be a professional in Beauty & Hairdressing',
       levels: [
         {
@@ -629,7 +629,7 @@ function page({params}) {
         'Minimum grade to start your studies on this ​course is D plain. ',
         'You will be able to complete your ​certification in 6 months. ',
       ],
-      img: '/hair-dressing.jfif',
+      img: '/hair-dressing.jpg',
       phrase: 'Learn the art of Hair dressing',
       levels: [
         {
@@ -673,7 +673,7 @@ function page({params}) {
         'Minimum grade to start your studies on this ​course is D plus. ',
         'You will be able to complete your ​certification in 12 months. ',
       ],
-      img: '/hair-dressing.jfif',
+      img: '/hair-dressing.jpg',
       phrase: 'Advance your career in Hair dressing & Beauty therapy',
       levels: [
         {
@@ -801,7 +801,7 @@ function page({params}) {
       Description: [
         'You will be able to complete your ​certification in 2 months. ',
       ],
-      img: '/hair-dressing.jfif',
+      img: '/hair-dressing.jpg',
       phrase: 'Get a proficiency course to work at a beauty Salon',
       levels: [
         {
