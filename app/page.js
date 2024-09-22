@@ -6,6 +6,8 @@ import ApplyButton from "@/components/ApplyButton";
 import Homeanimations from "@/components/Homeanimations";
 import Extenddivs from "@/components/Extenddivs";
 import { RiWhatsappFill } from "react-icons/ri";
+import HomeSlider from "@/components/HomeSlider";
+
 
 export default function Home() {
   
@@ -21,33 +23,33 @@ export default function Home() {
 
   return (
     <div className="w-full  overflow-hidden h-full">
-      <div className="w-full h-screen flex justify-center ">
-        <Image alt="RUIRU COLLEGE OF CATERING & MANAGEMENT STUDIES" style={{objectFit: 'cover'}}  fill={true} src={'/e2d9649ed8c23c9583f82f3e8fb6e982.jpg'} />
-      </div>
-      <div style={{width: '66%'}} className="rounded-es-3xl h-9 overflow-hidden title-color absolute top-0 right-0 p-2">
+      <HomeSlider/>
+      <div style={{width: '66%'}} className="rounded-es-3xl z-10 h-9 overflow-hidden title-color absolute top-0 right-0 p-2">
         <p className="text-sm font-sans leading-6 text-white text-center">
-          Intake happening on January, March, May, July & September
+          <span className="hidden leading-4  sm:block">Intake happening on January, March, May, July & September</span>
+          <marquee className="sm:hidden leading-4 block">Intake happening on January, March, May, July & September</marquee>
         </p>
       </div>
       <ApplyButton homeApply={true} applyTitle={'Select Your Course'}/>
-      <div className="w-full py-1 px-4 h-10 flex justify-start slg:justify-between text-white title-color absolute top-36 sm:top-40">
+      <div className="w-full py-1 z-10 px-4 h-10 flex justify-start slg:justify-between text-white title-color absolute top-36 sm:top-40">
         <div></div>
         <CgMenuMotion className="mb-4 text-3xl min-w-8 mr-4 block slg:hidden"/>
         <div className={"flex font-sans overflow-x-auto overflow-y-hidden whitespace-nowrap topbar-webkit slg:justify-between w-0 slg:w-full gap-6 flex-grow "}>
-          <span >About Us</span>
-          <span >Programs</span>
+          <Link href={'#contacts'}><span >About Us</span></Link>
+          <Link href={'#programs'}><span >Programs</span></Link>
           <span >Admission</span>
           <span >Internships</span>
           <span >Student Life </span>
           <span >News & Events </span>
-          <span >Contact Us</span>
+          <Link href={'#contacts'}><span >Contact Us</span></Link>
         </div>
         <div></div>
       </div>
-      <div className="logo min-w-24 sm:min-w-28 min-h-24 sm:min-h-28 max-w-32 max-h-32 absolute top-7 sm:top-8">
+      <div className="logo min-w-24 z-10 sm:min-w-28 min-h-24 sm:min-h-28 max-w-32 max-h-32 absolute top-7 sm:top-8">
         <Image alt="RUIRU COLLEGE LOGO" layout="fill" src={'/a29d2abffaa3667be2c61a94a0ccc015.png'} />
       </div>
       <Homeanimations/>
+      <div id='programs'></div>
       {/* start of boma template */}
       <div className="bg-highlight px-3 pt-5 pb-6">
         <div className="text-2xl title-text sm:text-center mb-3">Discover Ruiru College of Catering & Managment Studies</div>
@@ -61,7 +63,7 @@ export default function Home() {
         <div className="slg:w-1/2 hidden font-medium slg:flex h-auto font-sans slg:h-96 w-full   items-center ">
           <div className="pt-4 justify-center flex flex-col  h-full px-6">
             <div className="title-color slg:block hidden mt-6 mb-6 text-3xl  pt-1 pb-2 text-center text-white">School of Hospitality & Culinar​y art​s</div>
-            <p className="pb-6 title-text">Our hospitality  course s offer comprehensive pathway to success in the vibrant dynamic hospitelity industry.</p>
+            <p className="pb-6 title-text">Our hospitality  courses offer comprehensive pathway to success in the vibrant dynamic hospitality industry.</p>
             <p className="title-text">Our strong partnerships with leading organisations provide you with unparalleled opportunities for growth</p>
             <Link href={`/${Schools[0]}`}><div className="title-gradien mt-6 text-xl w-32 pt-0.5 pb-2 text-center text-white ">Learn More</div></Link>
           </div>
@@ -74,7 +76,7 @@ export default function Home() {
         <div className="slg:w-1/2 h-auto font-medium font-sans slg:h-96 w-full flex slg:hidden  items-center ">
           <div className="pt-4 justify-center flex flex-col  h-full px-6">
             <div className="title-color slg:block hidden mt-6 mb-6 text-3xl  pt-1 pb-2 text-center text-white">School of Hospitality & Culinar​y art​s</div>
-            <p className="pb-6 title-text">Our hospitality  course s offer comprehensive pathway to success in the vibrant dynamic hospitelity industry.</p>
+            <p className="pb-6 title-text">Our hospitality  course offer comprehensive pathway to success in the vibrant dynamic hospitality industry.</p>
             <p className="title-text">Our strong partnerships with leading organisations provide you with unparalleled opportunities for growth</p>
             <Link href={`/${Schools[0]}`}><div className="title-gradien mt-6 text-xl w-32 pt-0.5 pb-2 text-center text-white ">Learn More</div></Link>
           </div>
@@ -106,7 +108,7 @@ export default function Home() {
         <div className="slg:w-1/2 font-medium font-sans h-auto slg:h-96 w-full flex  items-center ">
           <div className="pt-4 justify-center flex flex-col  h-full px-6">
             <div className="title-color slg:block hidden mt-6 mb-6 text-3xl  pt-1 pb-2 text-center text-white">School Of Beauty And Cosmetology </div>
-            <p className="pb-6 title-text">Transforming your passion for beauty into s rewarding career with our compreensive cosmetology courses designed for you.</p>
+            <p className="pb-6 title-text">Transforming your passion for beauty into a rewarding career with our compreensive cosmetology courses designed for you.</p>
             <p className="title-text">Get necessary skills, knowledge & hands on experience in hairdressing and beauty to help you excel in various roles within the field.</p>
             <Link href={`/${Schools[6]}`}><div className="title-gradien mt-6 text-xl w-32 pt-0.5 pb-2 text-center text-white ">Learn More</div></Link>
           </div>
@@ -238,6 +240,7 @@ export default function Home() {
       </div>
       <Extenddivs/>
       {/* Footer */}
+      <div  id="contacts"></div>
       <Footer/>
     </div>
   );

@@ -9,8 +9,11 @@ import {
 import { DatePicker, Space } from 'antd';
 import { IoClose } from "react-icons/io5";
 import { VscLoading } from "react-icons/vsc";
+import { useRouter } from 'next/navigation';
 
 function Apply({applyTitle, closeLogger}) {
+
+  const router = useRouter();
 
   const [date, setDate] = useState('');
   const [waiting, setWaiting] = useState(false);
@@ -23,9 +26,11 @@ function Apply({applyTitle, closeLogger}) {
   const RegistersubmitHandler = async (values) => {
     setWaiting(true);
     try {
-      console.log(values)
+      router.push(`https://wa.me/254202319877?text=*COURSE%20APPLICATION*%0A%0ACourse%20Name:%20${applyTitle}%0AFull%20Name:%20${values.firstName}%20${values.secondName}%0AEmail:%20${values.email}%0APhone%20Number:%20${values.phoneNumber}%0A*THANK%20YOU*`)
+      setWaiting(false);
     } catch (err) {
       console.log(err)
+      setWaiting(false);
     }
   };
   

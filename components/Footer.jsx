@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { MdCall } from "react-icons/md";
 import { FaFacebookF } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import Link from 'next/link';
 
 function Footer() {
   return (
@@ -13,8 +14,12 @@ function Footer() {
         </div>
         <div className="col-span-2">
           <div className="text-xl font-bold pb-4">Contacts</div>
-          <div className="text-base flex leading-3 pb-4 gap-1.5"><MdCall/> 0245 00 11 22</div>
-          <div className="text-base flex leading-3 pb-4 gap-1.5"><MdCall/> 07​33 44 5566</div>
+          <Link href={'tel:0223 231 9877'}>
+            <div className="text-base flex leading-3 pb-4 gap-1.5"><MdCall/> 0223 231 9877</div>
+          </Link>
+          <Link href={'tel:0223 231 9877'}>
+            <div className="text-base flex leading-3 pb-4 gap-1.5"><MdCall/> 07​33 44 5566</div>
+          </Link>
           <div className="text-base leading-3 "> info@ruirucollege.ac.ke</div>
         </div>
         <div className="col-span-2">

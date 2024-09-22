@@ -25,6 +25,9 @@ display: none;
 .title-gradien{
     background-image: linear-gradient(to right, #3e2f5b , #e7632f)
 }
+.border-gradien{
+    border-color: linear-gradient(to right, #3e2f5b , #e7632f)
+}
 .short-coursebg {
     background: linear-gradient(hsla(235, 62%, 73%, 0), #3e2f5b );
 }

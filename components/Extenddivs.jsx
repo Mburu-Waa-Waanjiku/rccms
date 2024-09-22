@@ -1,94 +1,10 @@
 'use client'
 
 import React, { useState } from 'react';
-import ApplyButton from './ApplyButton';
 import Image from 'next/image';
+import Link from 'next/link';
 
 function Extenddivs() {
-
-  const shortCourses = [
-    {
-      name: 'Customer Service',
-      image: '/images.jpeg'
-    },
-    {
-      name: 'Public relations',
-      image: '/images(1).jpeg'
-    },
-    {
-      name:'Management',
-      image: '/images(2).jpeg'
-    },
-    {
-      name:'Book Keeping',
-      image: '/images(3).jpeg'
-    },
-    {
-      name: 'Front Office Operations',
-      image: '/6f4175f2499f20423e439f7fe12f5600.png'
-    },
-    {
-      name: 'House Keeping',
-      image: '/20240628_173534.jpg'
-    },
-    {
-      name: 'Food & Beverage Service',
-      image: '/images(4).jpeg'
-    },
-    {
-      name: 'Store Keeping',
-      image: '/images(6).jpeg'
-    },
-    {
-      name: 'Food & Beverage Production',
-      image: '/images(5).jpeg'
-    },
-    {
-      name: 'Tour Guiding',
-      image: '/70d27ecabc0a6707fe2a9460dcb537fe.jpg'
-    },
-    {
-      name: 'Computer Packages',
-      image: '/ea111b13ddd50698f161e6d24a14140e.jpg'
-    },
-    {
-      name: 'Marketing',
-      image: '/images(7).jpeg'
-    },
-    {
-      name: 'Pastry & Baking',
-      image: '/images(8).jpeg'
-    },
-    {
-      name: 'Nutrition & Dietetics',
-      image: '/nutrition.jpeg'
-    },
-    {
-      name: 'Business Communication',
-      image: '/images(1).jpeg'
-    },
-    {
-      name: 'Community Health Worker',
-      image: '/images(9).jpeg'
-    },
-    {
-      name: 'Entrepreneurship',
-      image: '/images(10).jpeg'
-    },
-    {
-      name: 'Leadership',
-      image: '/entrepreneur.jpeg'
-    },
-    {
-      name: 'Cake Baking & Cake Decoration',
-      image: '/images(12).jpeg'
-    },
-    {
-      name: 'Integrated Courses(After form 4)',
-      image: '/images(13).jpeg'
-    },
-    
-  ]
 
   const student = [
     {
@@ -103,6 +19,17 @@ function Extenddivs() {
       testimonial: 'If I was to choose all over ​again a school to go to, I ​would choose RCCMS 100 ​times over.',
       image: '/ce1c35c07233d4a240d31e0875810db9.png'
     }
+  ]
+
+  const shortCourses = [
+    'Short-Courses-In-Business',
+    'Short-Courses-In-Hospitality',
+    'Short-Courses-In-Front-Office-Operations',
+    'Short-Courses-In-Tourism',
+    'Short-Courses-In-ICT',
+    'Short-Courses-In-Hairdressing',
+    'Short-Courses-In-Beauty',
+    'Integrated-Courses-(After-form-4)'
   ]
 
   const partners = [
@@ -127,14 +54,15 @@ function Extenddivs() {
       {/* short courses */}
       {viewBar && 
         <div className="flex justify-center">
-          <div style={{maxWidth:1000}} className="p-6 grid gap-0.5 grid-cols-1 slg:grid-cols-2">
+          <div style={{maxWidth:1000}} className="p-6 grid gap-5 w-full grid-cols-1 slg:grid-cols-2">
             {shortCourses.map((course, index) => (
-              <div  key={index} className=" relative max-w-96 slg:max-w-full">
-                <Image alt={course.name} width={800} height={600} src={course.image}/>
-                <div className="absolute flex flex-col justify-end short-coursebg text-white h-2/3 bottom-0 w-full p-5">
-                  <h1 className="text-3xl font-bold pb-6">{course.name}</h1>  
-                  <ApplyButton shortCourse={true} applyTitle={course.name}/>
-                  </div>
+              <div  key={index} className=" relative title-color w-full">
+                <div className="flex flex-col justify-end  text-white  w-full p-5">
+                  <h1 className="text-xl font-medium pb-6">{course.split('-').join(' ')}</h1>  
+                  <Link href={`/short-courses/${course}`}>
+                    <p className="px-4 cursor-pointer w-28 text-center pb-1.5 whitespace-nowrap border-2 border-white">View Courses</p>
+                  </Link>
+                </div>
               </div>
             ))}
           </div>

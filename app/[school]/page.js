@@ -55,7 +55,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
+        'Course duration is 36 months. ',
         'There are 3 levels ​in this course.'
       ],
       img: '/20240313_115726.jpg',
@@ -112,7 +112,7 @@ function page({params}) {
       Description: [
         'This is an KNEC certification course.',
         'Minimum grade to start your studies on this ​course is D plain. ',
-        'You will be able to complete your ​certification in 24 months. ',
+        'Course duration is 24 months. ',
         'There are 2 modules ​in this course.'
       ],
       img: '/images(4).jpeg',
@@ -155,7 +155,7 @@ function page({params}) {
       Description: [
         'This is an KNEC certification course.',
         'Minimum grade to start your studies on this ​course is C plain. ',
-        'You will be able to complete your ​certification in 3 years. ',
+        'Course duration is 3 years. ',
       ],
       img: '/images(5).jpeg',
       phrase: 'World class Training',
@@ -197,7 +197,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is D plain. ',
-        'You will be able to complete your ​certification in 12 months. ',
+        'Course duration is 12 months. ',
         'There are 1 module ​in this course.'
       ],
       img: '/images(8).jpeg',
@@ -223,7 +223,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is D.plain ',
-        'You will be able to complete your ​certification in 12 months ',
+        'Course duration is 12 months ',
       ],
       img: '/20240628_173534.jpg',
       phrase: 'Empower your career in Hospiality field',
@@ -247,7 +247,7 @@ function page({params}) {
       name: 'Diploma In Event Management',
       Description: [
         'Minimum grade to start your studies on this ​course is D plain. ',
-        'You will be able to complete your ​certification in 36 months. ',
+        'Course duration is 36 months. ',
         'There are 3 levels ​in this course.'
       ],
       img: '/events.jpeg',
@@ -274,7 +274,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 12 months. ',
+        'Course duration is 12 months. ',
       ],
       img: '/ae77f09aad8ea172ea8f53585f5f366c.jpg',
       phrase: 'Gain skills in calinary arts',
@@ -303,7 +303,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is D minus. ',
-        'You will be able to complete your ​certification in 12 months. ',
+        'Course duration is 12 months. ',
       ],
       img: '/6cb07471145faa8a8d59f1ddc41d3156.jpg',
       phrase: 'Learn the art of Service in your field',
@@ -328,7 +328,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
+        'Course duration is 36 months. ',
         'There are 3 levels ​in this course.'
       ],
       img: '/6f4175f2499f20423e439f7fe12f5600.png',
@@ -368,7 +368,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
+        'Course duration is 36 months. ',
         'There are 3 levels ​in this course.'
       ],
       img: '/666e0b80a3c87c51a35f226b8ed47274.png',
@@ -408,7 +408,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
+        'Course duration is 36 months. ',
         'There are 3 levels ​in this course.'
       ],
       img: '/70d27ecabc0a6707fe2a9460dcb537fe.jpg',
@@ -448,7 +448,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
+        'Course duration is 36 months. ',
         'There are 3 levels ​in this course.'
       ],
       img: '/images(2)1.jpeg',
@@ -487,7 +487,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
+        'Course duration is 36 months. ',
         'There are 3 levels ​in this course.'
       ],
       img: '/ce1c35c07233d4a240d31e0875810db9.png',
@@ -525,7 +525,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is -D. ',
-        'You will be able to complete your ​certification in 36 months. ',
+        'Course duration is 36 months. ',
         'There are 3 levels ​in this course.'
       ],
       
@@ -547,7 +547,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is C minus. ',
-        'You will be able to complete your ​certification in 18 months. ',
+        'Course duration is 18 months. ',
       ],
       img: '/ea111b13ddd50698f161e6d24a14140e.jpg',
       phrase: 'Learn the essentials in ICT',
@@ -568,14 +568,14 @@ function page({params}) {
     },
     //course 16 --- school of beauty
     {
-      name: 'Hairdressing & Beaty Therapy',
+      name: 'Hairdressing & Beauty Therapy',
       Description: [
         'This is an NITA certification course.',
         'Minimum grade to start your studies on this ​course is D plain. ',
-        'You will be able to complete your ​certification in 9 months. ',
+        'Course duration is 9 months. ',
       ],
       img: '/hair-dressing.jpg',
-      phrase: 'Be a professional in Beauty & Hairdressing',
+      phrase: 'Beauty & Hairdressing At Its Best',
       levels: [
         {
           level: 'Hairdressing',
@@ -627,7 +627,7 @@ function page({params}) {
       Description: [
         'This is an NITA certification course.',
         'Minimum grade to start your studies on this ​course is D plain. ',
-        'You will be able to complete your ​certification in 6 months. ',
+        'Course duration is 6 months. ',
       ],
       img: '/hair-dressing.jpg',
       phrase: 'Learn the art of Hair dressing',
@@ -649,7 +649,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is D plain. ',
-        'You will be able to complete your ​certification in 6 months. ',
+        'Course duration is 6 months. ',
       ],
       img: '/makeup.jpg',
       phrase: 'Learn the art of Beaty therapy',
@@ -671,7 +671,7 @@ function page({params}) {
       Description: [
         'This is an ICM certification course.',
         'Minimum grade to start your studies on this ​course is D plus. ',
-        'You will be able to complete your ​certification in 12 months. ',
+        'Course duration is 12 months. ',
       ],
       img: '/hair-dressing.jpg',
       phrase: 'Advance your career in Hair dressing & Beauty therapy',
@@ -735,7 +735,7 @@ function page({params}) {
       name: 'Certificate In Barbering',
       Description: [
         'This is an NITA certification course.',
-        'You will be able to complete your ​certification in 2 months. ',
+        'Course duration is 2 months. ',
       ],
       img: '/images(15).jpeg',
       phrase: 'Start your career with a profesional barbering course',
@@ -756,7 +756,7 @@ function page({params}) {
       name: 'Certificate In Nail Technology',
       Description: [
         'This is an NITA certified course.',
-        'You will be able to complete your ​certification in 2 months. ',
+        'Course duration is 2 months. ',
         'There are 3 levels ​in this course.'
       ],
       img: '/IMG-20240710-WA0021.jpg',
@@ -775,10 +775,10 @@ function page({params}) {
     },
     //course 22
     {
-      name: 'Tutors Trainging Course',
+      name: 'Tutors Training Course',
       Description: [
         'This is an NITA certification course.',
-        'You will be able to complete your ​certification in 6 months.',
+        'Course duration is 6 months.',
         'There are 3 levels ​in this course.'
       ],
       img: '/images(13).jpeg',
@@ -799,7 +799,7 @@ function page({params}) {
     {
       name: 'Hairdressing Packages (Short course)',
       Description: [
-        'You will be able to complete your ​certification in 2 months. ',
+        'Course duration is 2 months. ',
       ],
       img: '/hair-dressing.jpg',
       phrase: 'Get a proficiency course to work at a beauty Salon',
