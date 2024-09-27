@@ -31,15 +31,19 @@ function page({params}) {
     },
     {
       name: 'Short-Courses-In-Hairdressing',
-      map: [14, 17],
+      map: [14, 18],
     },
     {
       name: 'Short-Courses-In-Beauty',
-      map: [17, 21],
+      map: [18, 23],
     },
     {
       name: 'Integrated-Courses-(After-form-4)',
-      map: [21, 28],
+      map: [23, 28],
+    },
+    {
+      name: 'Care-Giver',
+      map: [28, 29],
     }
   ];
 
@@ -107,6 +111,10 @@ function page({params}) {
         image: '/images(16).jpeg'
       },
       {
+        name: 'Setting & Styling Dread Locks',
+        image: '/images(23).jpeg'
+      },
+      {
         name: 'Setting',
         image: '/images(18).jpeg'
       },
@@ -117,6 +125,10 @@ function page({params}) {
       {
         name: 'Manicure',
         image: '/IMG-20240710-WA0021.jpg'
+      },
+      {
+        name: 'Beauty Packages',
+        image: '/images(13).jpeg'
       },
       {
         name: 'Massage',
@@ -150,7 +162,10 @@ function page({params}) {
         name: 'Cake Baking & Cake Decoration',
         image: '/images(12).jpeg'
       },
-      
+      {
+        name: 'Care Giver',
+        image: '/images(9).jpeg'
+      },
   ]
 
   return (
@@ -158,7 +173,7 @@ function page({params}) {
       <div className='mlg:p-3'>
         <div className='py-8 px-8 text-3xl font-Bold text-white title-gradien'>
           <h1 className='pb-4'>{schoolName}</h1>
-          <p className='text-base font-medium'>This courses take {school == 'Short-Courses-In-Business' ? '3' : '2'} Months</p>
+          <p className='text-base font-medium'>This courses take {school == 'Short-Courses-In-Business' ? '3 Months' : school == 'Short-Courses-In-Hospitality' ? '3 Months except Cake Baking & Cake Decoration which takes 2 Months' : '2'}</p>
         </div>
       </div>
       <div className="flex justify-center">

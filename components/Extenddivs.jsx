@@ -29,7 +29,8 @@ function Extenddivs() {
     'Short-Courses-In-ICT',
     'Short-Courses-In-Hairdressing',
     'Short-Courses-In-Beauty',
-    'Integrated-Courses-(After-form-4)'
+    'Integrated-Courses-(After-form-4)',
+    'Care-Giver',
   ]
 
   const partners = [

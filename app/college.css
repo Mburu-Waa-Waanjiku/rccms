@@ -1,6 +1,9 @@
 .title-color{
     background-color: #3e2f5b;
 }
+.news-bg {
+    background: url('/hospitality.jpg') no-repeat center;
+}
 .topbar-webkit::-webkit-scrollbar {
     height: 0;
     -ms-overflow-style: none;  /* IE and Edge */
@@ -43,11 +46,19 @@ display: none;
 .bg-highlight{
     background-color: rgba(63, 48, 93, 0.06);
 }
+.trapezoid {
+	border-top: 35px solid #ffffff8e;
+	border-left: 25px solid transparent;
+	height: 0;
+}
 .logo {
     transform: translate(10vw);
 }
 .image-width {
     width: 40vw;
+}
+.h-96 {
+    height: 400;
 }
 @media only screen and ( max-width: 745px) {
     .image-width {

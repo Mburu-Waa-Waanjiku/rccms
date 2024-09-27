@@ -104,3 +104,10 @@ html {
     flex: 0 0 41.6666666667%;
     max-width: 41.6666666667%;
 }
+.transparent-text {
+    background: url('/hospitality.jpg') no-repeat center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent; /* Makes the text transparent */
+  }

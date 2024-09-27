@@ -8,7 +8,6 @@ import Extenddivs from "@/components/Extenddivs";
 import { RiWhatsappFill } from "react-icons/ri";
 import HomeSlider from "@/components/HomeSlider";
 
-
 export default function Home() {
   
   const Schools = [
@@ -18,7 +17,7 @@ export default function Home() {
     'School-Of-Business',
     'School-Of-ICT',
     'School-Of-Front-Office',
-    'School-Of-Beauty-And-Cosmetology'
+    'School-Of-Cosmetology',
   ]
 
   return (
@@ -30,17 +29,17 @@ export default function Home() {
           <marquee className="sm:hidden leading-4 block">Intake happening on January, March, May, July & September</marquee>
         </p>
       </div>
-      <ApplyButton homeApply={true} applyTitle={'Select Your Course'}/>
+      <ApplyButton homeApply={true} />
       <div className="w-full py-1 z-10 px-4 h-10 flex justify-start slg:justify-between text-white title-color absolute top-36 sm:top-40">
         <div></div>
         <CgMenuMotion className="mb-4 text-3xl min-w-8 mr-4 block slg:hidden"/>
         <div className={"flex font-sans overflow-x-auto overflow-y-hidden whitespace-nowrap topbar-webkit slg:justify-between w-0 slg:w-full gap-6 flex-grow "}>
-          <Link href={'#contacts'}><span >About Us</span></Link>
+          <Link href={'/about-us'}><span >About Us</span></Link>
           <Link href={'#programs'}><span >Programs</span></Link>
           <span >Admission</span>
           <span >Internships</span>
-          <span >Student Life </span>
-          <span >News & Events </span>
+          <Link href={'/events-&-news'}><span >Student Life </span></Link>
+          <Link href={'/events-&-news'}><span >News & Events </span></Link>
           <Link href={'#contacts'}><span >Contact Us</span></Link>
         </div>
         <div></div>
@@ -84,7 +83,7 @@ export default function Home() {
       </div>
       {/* School Of Beauty And Cosmetology */}
       <div className="flex mb-8 p-6 mlg:pb-8 slg:p-0 flex-col slg:flex-row justify-center relative items-center gap-4 w-full">
-        <div className="title-color w-full block slg:hidden mt-6 mb-6 text-3xl  pt-1 pb-2 text-center text-white">School Of Beauty And Cosmetology </div>
+        <div className="title-color w-full block slg:hidden mt-6 mb-6 text-3xl  pt-1 pb-2 text-center text-white">School Of Cosmetology </div>
         <div className="flex justify-center items-center slg:w-1/2">
           <div class="col-md-6  max-w-96">
             <div class="row mt-4 mt-md-0">
@@ -107,8 +106,8 @@ export default function Home() {
         </div>
         <div className="slg:w-1/2 font-medium font-sans h-auto slg:h-96 w-full flex  items-center ">
           <div className="pt-4 justify-center flex flex-col  h-full px-6">
-            <div className="title-color slg:block hidden mt-6 mb-6 text-3xl  pt-1 pb-2 text-center text-white">School Of Beauty And Cosmetology </div>
-            <p className="pb-6 title-text">Transforming your passion for beauty into a rewarding career with our compreensive cosmetology courses designed for you.</p>
+            <div className="title-color slg:block hidden mt-6 mb-6 text-3xl  pt-1 pb-2 text-center text-white">School Of Cosmetology </div>
+            <p className="pb-6 title-text">Transforming your passion for beauty into a rewarding career with our comprehensive cosmetology courses designed for you.</p>
             <p className="title-text">Get necessary skills, knowledge & hands on experience in hairdressing and beauty to help you excel in various roles within the field.</p>
             <Link href={`/${Schools[6]}`}><div className="title-gradien mt-6 text-xl w-32 pt-0.5 pb-2 text-center text-white ">Learn More</div></Link>
           </div>
@@ -116,10 +115,10 @@ export default function Home() {
       </div>
       {/* school of tourisim */}
       <div className="flex mb-8 p-6 mlg:pb-8 slg:p-0 flex-col slg:flex-row justify-center relative items-center gap-4 w-full">
-        <div className="title-color w-full mt-6 block slg:hidden mb-6 text-3xl  pt-1 pb-2 text-center text-white ">School of Tourisim and ​Travels</div>
+        <div className="title-color w-full mt-6 block slg:hidden mb-6 text-3xl  pt-1 pb-2 text-center text-white ">School of Tourism and ​Travels</div>
         <div className="slg:w-1/2 h-auto font-medium font-sans slg:h-96 w-full hidden slg:flex   items-center ">
           <div className="pt-4 justify-center flex flex-col  h-full px-6">
-            <div className="title-color mt-6 slg:block hidden mb-6 text-3xl  pt-1 pb-2 text-center text-white ">School of Tourisim and ​Travels</div>
+            <div className="title-color mt-6 slg:block hidden mb-6 text-3xl  pt-1 pb-2 text-center text-white ">School of Tourism and ​Travels</div>
             <p className="pb-4 title-text">Unlock the secrets of the tourism industry and propel your career forward with our comprehensive tourism courses.</p>
             <p className="pb-4 title-text">Our courses offer opportunities for international travel, cultural immersions & exposure to  diverse tourism career.</p>
             <Link href={`/${Schools[1]}`}><div className="title-gradien mt-6 text-xl w-32 pt-0.5 pb-2 text-center text-white ">Learn More</div></Link>
@@ -132,7 +131,7 @@ export default function Home() {
         </div>
         <div className="slg:w-1/2 h-auto font-medium font-sans slg:h-96 w-full flex slg:hidden  items-center ">
           <div className="pt-4 justify-center flex flex-col  h-full px-6">
-            <div className="title-color mt-6 slg:block hidden mb-6 text-3xl  pt-1 pb-2 text-center text-white ">School of Tourisim and ​Travels</div>
+            <div className="title-color mt-6 slg:block hidden mb-6 text-3xl  pt-1 pb-2 text-center text-white ">School of Tourism and ​Travels</div>
             <p className="pb-4 title-text">Unlock the secrets of the tourism industry and propel your career forward with our comprehensive tourism courses.</p>
             <p className="pb-4 title-text">Our courses offer opportunities for international travel, cultural immersions & exposure to  diverse tourism career.</p>
             <Link href={`/${Schools[1]}`}><div className="title-gradien mt-6 text-xl w-32 pt-0.5 pb-2 text-center text-white ">Learn More</div></Link>
