@@ -37,7 +37,7 @@ export default function Home() {
           <Link href={'/about-us'}><span >About Us</span></Link>
           <Link href={'#programs'}><span >Programs</span></Link>
           <span >Admission</span>
-          <span >Internships</span>
+          <Link href={'/events-&-news#internship'}><span >Internships</span></Link>
           <Link href={'/events-&-news'}><span >Student Life </span></Link>
           <Link href={'/events-&-news'}><span >News & Events </span></Link>
           <Link href={'#contacts'}><span >Contact Us</span></Link>
@@ -182,7 +182,7 @@ export default function Home() {
           </div>
         </div>
         <div className="w-full flex justify-center scaler xxsm:!scale-75 mlg:!scale-100  items-center h-72 slg:w-1/2">
-          <Image alt="school of Business" style={{transform: 'translate(20px, 0px)'}} className="absolute border-4 border-white m-1 z-10" width={300} height={400} src={'/ce1c35c07233d4a240d31e0875810db9.png'}/>
+          <Image alt="school of Business" style={{transform: 'translate(20px, 0px)'}} className="absolute border-4 border-white m-1 z-10" width={300} height={400} src={'/bsns.jpeg'}/>
           <div style={{transform: 'translate(-80px, 150px)'}} className="p-3 title-color h-32 w-48 text-3xl text-white z-10">Become a leading ​business mind</div>
         </div>
         <div className="slg:w-1/2 font-medium font-sans h-auto slg:h-96 w-full flex slg:hidden  items-center ">
@@ -222,7 +222,7 @@ export default function Home() {
         </div>
         <div className="w-full flex justify-center scaler xxsm:!scale-75 mlg:!scale-100  items-center h-72 slg:w-1/2">
           <div style={{transform: 'translate(197px, -130px)'}} className="p-3 title-color h-32 w-32 text-3xl text-white"></div>
-          <Image alt="school of ICT" className="absolute border-4 border-white m-1 z-10" width={400} height={400} src={'/6f4175f2499f20423e439f7fe12f5600.png'}/>
+          <Image alt="school of ICT" className="absolute border-4 border-white m-1 z-10" width={400} height={400} src={'/std6.jpeg'}/>
           <div style={{transform: 'translate(-137px, 135px)'}} className="p-3 title-color h-32 w-48 text-3xl text-white "></div>
         </div>
         <div className="slg:w-1/2 font-medium font-sans h-auto slg:h-96 w-full flex slg:hidden  items-center ">

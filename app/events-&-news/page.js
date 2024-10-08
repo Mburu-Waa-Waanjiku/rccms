@@ -56,6 +56,20 @@ function page() {
           </div>
         </div>
       </div>
+      <div id="internship"></div>
+      <div className='p-4 mx-4 mb-4 mt-6 overflow-hidden'>
+        <div className='relative w-full flex flex-col items-center justify-center'>
+          <div className='flex relative w-full justify-center'>
+            <Image src={'/internship.jpeg'} alt='' width={400} height={600}/>
+            <div className='absolute mx-4 w-full text-center text-xl bottom-0 title-color translate-y-5 px-6 pb-3  text-white'>
+              <div className='font-bold text-2xl'>Internships</div>
+            </div>
+          </div>
+          <div className='mt-2 sm:mx-4 w-full text-center text-xl bottom-0 title-color translate-y-5 px-6 pb-3  text-white'>
+            <p className='py-2'>"At Ruiru College of Catering and Management Studies (RCCMS), we are committed to bridging the gap between education and industry. Through our robust internship programs, offered in partnership with leading organizations, our students gain hands-on experience, practical skills, and valuable industry exposure that prepare them for successful careers. Join RCCMS and take your first step toward real-world professional growth!"</p>
+          </div>
+        </div>
+      </div>
       <Footer/>
     </div>
   )

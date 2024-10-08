@@ -173,7 +173,7 @@ function page({params}) {
       <div className='mlg:p-3'>
         <div className='py-8 px-8 text-3xl font-Bold text-white title-gradien'>
           <h1 className='pb-4'>{schoolName}</h1>
-          <p className='text-base font-medium'>This courses take {school == 'Short-Courses-In-Business' ? '3 Months' : school == 'Short-Courses-In-Hospitality' ? '3 Months except Cake Baking & Cake Decoration which takes 2 Months' : '2'}</p>
+          <p className='text-base font-medium'>This courses take {school == 'Short-Courses-In-Business' ? '3 Months' : school == 'Care-Giver' ? '3 Months' : school == 'Short-Courses-In-Hospitality' ? '3 Months except Cake Baking & Cake Decoration which takes 2 Months' : '2 Months'}</p>
         </div>
       </div>
       <div className="flex justify-center">
