@@ -20,15 +20,20 @@ function Homeanimations() {
       <Link href={'https://www.facebook.com/p/Ruiru-College-of-Catering-and-Management-Courses-RCCMS-100070130419338/'}>
         <div className="text-base flex leading-3 pb-4 gap-1.5"><FaFacebook/> Ruiru College</div>
       </Link>
-      <div className="text-base flex leading-4 pb-4 gap-1.5"><AiFillTikTok className='text-xl'/> Ruiru College</div>
+      <Link href={'https://www.tiktok.com/@ruiru.college?_t=8q6DYUzydHS&_r=1'}>
+        <div className="text-base flex leading-4 pb-4 gap-1.5"><AiFillTikTok className='text-xl'/> Ruiru College</div>
+      </Link>
     </div>
   )
 
   return (
     <>
-      <div style={{top: '55vh'}} className="text-5xl z-10 sm:text-7xl font-bold w-full text-center text-white absolute ">
+      <div style={{top: '55vh'}} className="text-5xl z-10 sm:-translate-y-12 sm:text-7xl font-bold w-full text-center text-white absolute ">
         <Slide direction="right absolute" triggerOnce>
-          <div className=" pb-4">RUIRU COLLEGE</div>
+          <div className=" pb-4">
+            <span>RUIRU COLLEGE</span><br/>
+            <span className='text-2xl sm:text-4xl '>(TECHNICAL INSTITUTE)</span>
+          </div>
         </Slide>
         <Slide direction="left absolute" triggerOnce>
           <div className="text-2xl">DESIGNED FOR A PURPOSE</div>
