@@ -16,7 +16,7 @@ function Footer() {
           <div className="col-span-2 xmd:col-span-3">
             <div className="text-xl font-bold pb-4">Contacts</div>
             <div>Wakulima House Campus 2<sup>nd</sup> Floor <br/> Opp Ruiru Bus Terminals</div>
-            <Link href={'tel:0223 231 9877'}>
+            <Link href={'tel:020 231 9877'}>
               <div className="text-base flex leading-3 pb-4 pt-2 gap-1.5"><MdCall/> 020 231 9877</div>
             </Link>
           </div>
