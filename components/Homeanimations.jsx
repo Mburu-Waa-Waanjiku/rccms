@@ -51,7 +51,7 @@ function Homeanimations() {
             </Link>
             <div className="w-0.5 bg-black h-full"></div>
             <div className="flex flex-col items-center justify-center gap-0.5">
-              <Link href={'tel:0245001122'}><MdCall className="text-2xl"/></Link>
+              <Link href={'tel:0223 231 9877'}><MdCall className="text-2xl"/></Link>
               <span className="leading-3 hidden sm:block mb-1.5">CONTACTS</span>
             </div>
             <div className="w-0.5 bg-black h-full"></div>
