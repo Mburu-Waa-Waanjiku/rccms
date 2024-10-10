@@ -43,7 +43,7 @@ function Footer() {
           </div>
           <div className="col-span-2 block xmd:hidden">
             <div className="text-xl font-bold pb-4">Socials</div>
-            <Link href={'https:// www.facebook.com/p/Ruiru-College-of-Catering-and-Management-Courses-RCCMS-100070130419338/'}>
+            <Link href={'https://www.facebook.com/p/Ruiru-College-of-Catering-and-Management-Courses-RCCMS-100070130419338/'}>
               <div className="text-base flex leading-3 pb-4 gap-1.5"><FaFacebook/> Ruiru College</div>
             </Link>
             <Link href={'https://www.tiktok.com/@ruiru.college?_t=8q6DYUzydHS&_r=1'}>
