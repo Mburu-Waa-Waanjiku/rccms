@@ -10,7 +10,7 @@ function Footer() {
     <>
       <div className="w-full text-white p-4 grid justify-items-center grid-cols-4 xmsm:grid-cols-7 xmd:grid-cols-12 title-color">
         <div className="col-span-3 self-center hidden xmsm:block">
-          <Image width={150} height={150} className="" src={'/a29d2abffaa3667be2c61a94a0ccc015.png'} />
+          <Image alt='' width={150} height={150} className="" src={'/a29d2abffaa3667be2c61a94a0ccc015.png'} />
         </div>
         <div className='col-span-4 grid-cols-4 xmd:grid-cols-9 xmd:col-span-9 grid gap-6'>
           <div className="col-span-2 xmd:col-span-3">

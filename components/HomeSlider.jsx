@@ -26,7 +26,7 @@ function HomeSlider() {
       loop={true}
     >
       {images.map((img, i) => (
-        <SwiperSlide>
+        <SwiperSlide key={i}>
           <div className="w-full h-screen flex justify-center ">
             <Image alt="RUIRU COLLEGE OF CATERING & MANAGEMENT STUDIES" style={{objectFit: 'cover'}}  fill={true} src={img} />
           </div>

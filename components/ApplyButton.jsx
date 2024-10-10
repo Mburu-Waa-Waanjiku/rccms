@@ -42,14 +42,14 @@ function ApplyButton({ shortCourse, course, homeApply, applyTitle, index }) {
           {openSchool &&
             <div className='flex mt-8 flex-col'>
               {course.levels.map((course, index) => (
-                <div className='w-full mb-8 title-text bg-highlight px-3 pt-3 pb-6'>
+                <div key={index} className='w-full mb-8 title-text bg-highlight px-3 pt-3 pb-6'>
                   <h3 className='w-full text-center text-3xl font-medium pb-3'>{course.level}</h3>
                   {course.requirements.length > 0 &&
                     <>
                       <h5 className='text-2xl font-medium'>Requirements</h5>
                       <ul>
                         {course.requirements?.map((requirement, index) => (
-                          <li>{requirement}</li>
+                          <li key={index}>{requirement}</li>
                         ))}
                       </ul>
                     </>

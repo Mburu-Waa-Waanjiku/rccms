@@ -75,9 +75,9 @@ function Sliderdiv() {
             className='text-white'
           >
             {student.map((t, index) => (
-              <SwiperSlide>
+              <SwiperSlide key={index}>
                 <div className='w-full flex justify-center'>
-                  <div className="rounded-3xl overflow-hidden title-color text-white w-80  bg-white items-center flex flex-col gap-2">
+                  <div className="rounded-3xl overflow-hidden title-color text-white w-80 items-center flex flex-col gap-2">
                     <div className='w-full flex -translate-y-6 justify-center pb-12 pt-4 scale-150 bg-white rounded-b-full'>
                       <div className=" min-w-20 scale-90 translate-y-6 mt-6 justify-center h-20 w-20 rounded-full overflow-hidden">
                         <Image alt="" width={150} height={150} className='min-h-full ' src={t.image}/>

@@ -78,7 +78,7 @@ function Extenddivs() {
         {viewPartner &&
           <div className="flex justify-center gap-8">
             {partners.map((i, index)=> (
-              <Image key={index} width={300} className="max-h-24 " height={300} src={i}/>
+              <Image key={index} alt='' width={300} className="max-h-24 " height={300} src={i}/>
             ))}
           </div>  
         }
