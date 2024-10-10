@@ -111,3 +111,6 @@ html {
     background-clip: text;
     color: transparent; /* Makes the text transparent */
   }
+.w-fiter {
+    max-width: -webkit-fill-available;
+}

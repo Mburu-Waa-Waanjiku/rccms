@@ -27,7 +27,7 @@ function Apply({applyTitle, closeLogger}) {
   const RegistersubmitHandler = async (values) => {
     setWaiting(true);
     try {
-      router.push(`https://wa.me/254202319877?text=*COURSE%20APPLICATION*%0A%0ACourse%20Name:%20${applyTitle ? applyTitle : value.course}%0AFull%20Name:%20${values.firstName}%20${values.secondName}%0AEmail:%20${values.email}%0APhone%20Number:%20${values.phoneNumber}%0A*THANK%20YOU*`)
+      router.push(`https://wa.me/254202319877?text=*COURSE%20APPLICATION*%0A%0ACourse%20Name:%20${applyTitle ? applyTitle : values.course}%0AFull%20Name:%20${values.firstName}%20${values.secondName}%0AEmail:%20${values.email}%0APhone%20Number:%20${values.phoneNumber}%0A*THANK%20YOU*`)
       setWaiting(false);
     } catch (err) {
       console.log(err)
@@ -92,21 +92,22 @@ function Apply({applyTitle, closeLogger}) {
           {applyTitle ? applyTitle : 'Apply Now'}
         </div>
         <div className='flex flex-col items-center'>
+          {!applyTitle &&
+            <Form.Item
+              name="course"
+              rules={[{
+                required: true,
+              }]}
+              className='w-fiter'
+            >
+              <Select className="w-full" placeholder="Select A Course" >
+                {courses.map((course) => (
+                  <Option key={course} value={course}>{course}</Option>
+                ))}
+              </Select>
+            </Form.Item>
+          }
           <div className='flex xsm:gap-3 flex-col xsm:flex-row'>
-            {!applyTitle &&
-              <Form.Item
-                name="gender"
-                rules={[{
-                  required: true,
-                }]}
-              >
-                <Select className="w-full" placeholder="Select A Course" >
-                  {courses.map((course) => (
-                    <Option key={course} value={course}>{course}</Option>
-                  ))}
-                </Select>
-              </Form.Item>
-            }
             <Form.Item
               name="firstName"
               defaultValue=""
