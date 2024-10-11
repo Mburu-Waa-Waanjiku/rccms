@@ -2,6 +2,13 @@ import Image from 'next/image'
 import React from 'react'
 import Footer from '@/components/Footer'
 
+
+export const metadata = {
+  title: `NEWS & EVENTS`,
+  description: `Ruiru College students making a difference on Charity Day—Ruiru College students leading the way on Environmental Day—Ruiru College students in action on Social Corporate Day`,
+};
+
+
 function page() {
   return (
     <div className='w-full h-full overflow-hidden'>
@@ -52,7 +59,7 @@ function page() {
             </div>
           </div>
           <div className='mt-2 sm:mx-4 w-full text-center text-xl bottom-0 title-color translate-y-5 px-6 pb-3  text-white'>
-            <p className='py-2'>"Ruiru College students in action on Social Corporate Day—giving back to the community through service, support, and shared responsibility. Together, we're making a difference and driving positive change!"Event held at Ruiru Town.Partnership with Ruiru Municipality.</p>
+            <p className='py-2'>{`"Ruiru College students in action on Social Corporate Day—giving back to the community through service, support, and shared responsibility. Together, we're making a difference and driving positive change!"Event held at Ruiru Town.Partnership with Ruiru Municipality.`}</p>
           </div>
         </div>
       </div>
@@ -66,7 +73,7 @@ function page() {
             </div>
           </div>
           <div className='mt-2 sm:mx-4 w-full text-center text-xl bottom-0 title-color translate-y-5 px-6 pb-3  text-white'>
-            <p className='py-2'>"At Ruiru College of Catering and Management Studies (RCCMS), we are committed to bridging the gap between education and industry. Through our robust internship programs, offered in partnership with leading organizations, our students gain hands-on experience, practical skills, and valuable industry exposure that prepare them for successful careers. Join RCCMS and take your first step toward real-world professional growth!"</p>
+            <p className='py-2'>{`"At Ruiru College of Catering and Management Studies (RCCMS), we are committed to bridging the gap between education and industry. Through our robust internship programs, offered in partnership with leading organizations, our students gain hands-on experience, practical skills, and valuable industry exposure that prepare them for successful careers. Join RCCMS and take your first step toward real-world professional growth!"`}</p>
           </div>
         </div>
       </div>

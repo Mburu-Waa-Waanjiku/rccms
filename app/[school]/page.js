@@ -3,6 +3,25 @@ import React from 'react';
 import Footer from '@/components/Footer';
 import ApplyButton from '@/components/ApplyButton';
 
+
+export async function generateMetadata({params}) {
+  const school = params.school;
+  const schoolName = school.split('-').join(' ');
+  return {
+    title: `${schoolName}`,
+    description: `${
+      schoolName == 'School Of Hospitality Management' ? 'Our hospitality courses offer comprehensive pathway to success in the vibrant dynamic hospitality industry.' :
+      schoolName == 'School Of Cosmetology' ? 'Transforming your passion for beauty into a rewarding career with our comprehensive cosmetology courses designed for you.' :
+      schoolName == 'School Of Tourism' ? 'Unlock the secrets of the tourism industry and propel your career forward with our comprehensive tourism courses.' :
+      schoolName == 'School Of Fashion Design' ? 'RCCMS is here to nurture your interest in ​the hospitality industry & empower your ​ambitions.' :
+      schoolName == 'School Of Business' ? 'Step into the word of business with confidence & expertise by enrolling in a dynamic business courses designed for individuals at all stages of your career.' :
+      schoolName == 'School Of ICT' ? 'In todays rapidly evolving digital landscape, profecincy in information technology and computer packages is not just a skill but a necesity.' :
+      'Graduates in our programs are well prepared for a variety of roles in front office operations & customer service among others no matter the industry and sector.'
+    }`,
+  }
+}
+
+
 function page({params}) {
 
   const { school } = params;
@@ -811,7 +830,7 @@ function page({params}) {
     <div className='w-full h-full overflow-hidden' >
       <div className='w-full  school-banner-height flex flex-col justify-center overflow-hidden' >
         <Image alt={schoolName} width={1300} height={800}  className=' min-h-full object-cover' src={schoolCourses.img} />
-        <div style={{lineHeight: '70px'}} className='text-5xl slg:text-7xl text-center p-6  school-banner-height top-0 font-bold text-white z-10 flex justify-center items-center absolute school-banner-shadow w-full h-96'>
+        <div style={{lineHeight: '70px'}} className='text-5xl slg:text-7xl text-center p-6  school-banner-height top-0 font-bold text-white z-10 flex justify-center items-center absolute school-banner-shadow w-full '>
           <h1>{schoolName}</h1>
         </div>
       </div>

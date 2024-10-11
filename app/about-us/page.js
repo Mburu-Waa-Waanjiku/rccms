@@ -2,6 +2,13 @@ import Image from 'next/image'
 import React from 'react'
 import Footer from '@/components/Footer'
 
+
+export const metadata = {
+  title: `Ruiru College(RCCMS): ABOUT US`,
+  description: `For over 20 years, Ruiru College has been at the forefront of technical training, empowering more than 3,000 students to succeed in their chosen careers. Our comprehensive programs—ranging from Hospitality, Business, and Cosmetology to Information Communication Technology (ICT) and Tourism—are meticulously designed to provide the hands-on, practical skills employers are actively seeking.`,
+};
+
+
 function page() {
   return (
     <div className='w-full overflow-hidden'>

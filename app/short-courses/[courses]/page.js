@@ -3,6 +3,17 @@ import Image from 'next/image'
 import ApplyButton from '@/components/ApplyButton'
 import Footer from '@/components/Footer';
 
+
+export async function generateMetadata({params}) {
+  const school = params.courses;
+  const schoolName = school.split('-').join(' ');
+  return {
+    title: `SHORT COURSES: ${schoolName}`,
+    description: `Earn your 2 - 3 months short course certification in our ${schoolName} with our well suited programs ready for the market.`,
+  }
+}
+
+
 function page({params}) {
 
   const school = params.courses;
